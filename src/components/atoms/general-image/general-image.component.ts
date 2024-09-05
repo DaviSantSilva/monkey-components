@@ -22,6 +22,7 @@ import { Component, Input } from '@angular/core';
 })
 export class GeneralImageComponent {
 
+    @Input() class: string = 'general-image-img'
     @Input() path: string = "xingxing.jpg";
     @Input() alt: string = "banana";
     @Input() width: number = 32;
