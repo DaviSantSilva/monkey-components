@@ -2,7 +2,7 @@ import { NgOptimizedImage } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'MCIMG',
+  selector: 'MC-IMG',
   standalone: true,
   template: `
     ...
